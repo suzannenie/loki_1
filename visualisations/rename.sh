@@ -1,5 +1,5 @@
 COUNTER=0
-cd sub-860/axial;
+cd sub-860/sagR;
 for file in *.png
 do 
     [ -f "$file" ] && echo mv "$file" "${COUNTER}.png";
